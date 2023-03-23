@@ -17,7 +17,7 @@ as a resonse you should get:
 
 the following commands are available:
 - ```#m[0,0,0,0]:xxxx``` move to (0,0,0,0)
-- ```#M[0,0,0,0]:xxxx``` move (0,0,0,0)
+- ```#M[0,0,0,0]:xxxx``` move((dt,X,Y,Z): move for dt ms to (X,Y,Z)
 - ```#V[1,1,1]:xxxx``` move at speed(1,1,1)
 - ```#p:xxxx``` pause
 - ```#c:xxxx``` continue
@@ -42,6 +42,9 @@ this means the current position is (0,0,0,0)
 
 To enable the stepper motors send: ```#E:xxxx```
 response: #E[0]:0033
+
+now let us move the Z-axis by 1cm to (0,0,1000) with a speed of 500mm/sec: ```#m[500,0,0,1000]:xxx```
+now let us move the Z-axis back with 1000mm/sec: ```#m[1000,0,0,0]:xxx```
 
 ## Troubleshooting
 
