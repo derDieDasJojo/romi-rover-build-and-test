@@ -18,7 +18,7 @@ as a resonse you should get:
 the following commands are available:
 - ```#m[0,0,0,0]:xxxx``` move to (0,0,0,0)
 - ```#M[0,0,0,0]:xxxx``` move (0,0,0,0)
-- ```#V[0,0,0,0]:xxxx``` move at speed(0,0,0,0)
+- ```#V[1,1,1]:xxxx``` move at speed(1,1,1)
 - ```#p:xxxx``` pause
 - ```#c:xxxx``` continue
 - ```#r:xxxx``` reset
