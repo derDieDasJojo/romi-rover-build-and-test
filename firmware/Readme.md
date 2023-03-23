@@ -17,8 +17,8 @@ as a resonse you should get:
 
 the following commands are available:
 - ```#m[0,0,0,0]:xxxx``` move to (0,0,0,0)
-- ```#M[0,0,0,0]:xxxx``` move at (0,0,0,0)
-- ```#V[0,0,0,0]:xxxx``` move at (0,0,0,0)
+- ```#M[0,0,0,0]:xxxx``` move (0,0,0,0)
+- ```#V[0,0,0,0]:xxxx``` move at speed(0,0,0,0)
 - ```#p:xxxx``` pause
 - ```#c:xxxx``` continue
 - ```#r:xxxx``` reset
@@ -35,7 +35,13 @@ the following commands are available:
 - ```#T[0]:xxxx``` test off
 - ```#?:xxxx``` info
 
+now let us check the what the current position is:
+send: ```#P:xxxx```
+response: ```#P[0,0,0,0]:00af```
+this means the current position is (0,0,0,0)
 
+To enable the stepper motors send: ```#E:xxxx```
+response: #E[0]:0033
 
 
 # References
